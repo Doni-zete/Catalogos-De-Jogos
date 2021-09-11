@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Controllers",
+    "\\Controllers\\V1"
   ],
-  "SelectedNode": "\\Program.cs",
+  "SelectedNode": "\\ApiCategoriaJogos",
   "PreviewInSolutionExplorer": false
 }

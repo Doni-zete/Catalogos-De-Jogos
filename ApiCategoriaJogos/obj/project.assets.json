@@ -198,11 +198,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\FATEC\\CURSOS\\GITHUB\\API-CATEGORIA-JOGOS\\ApiCategoriaJogos\\ApiCategoriaJogos.csproj",
+      "projectUniqueName": "E:\\FATEC\\CURSOS\\GITHUB\\API-CATEGORIA-JOGOS\\Catalogos-De-Jogos\\ApiCategoriaJogos\\ApiCategoriaJogos.csproj",
       "projectName": "ApiCategoriaJogos",
-      "projectPath": "E:\\FATEC\\CURSOS\\GITHUB\\API-CATEGORIA-JOGOS\\ApiCategoriaJogos\\ApiCategoriaJogos.csproj",
+      "projectPath": "E:\\FATEC\\CURSOS\\GITHUB\\API-CATEGORIA-JOGOS\\Catalogos-De-Jogos\\ApiCategoriaJogos\\ApiCategoriaJogos.csproj",
       "packagesPath": "C:\\Users\\Doni\\.nuget\\packages\\",
-      "outputPath": "E:\\FATEC\\CURSOS\\GITHUB\\API-CATEGORIA-JOGOS\\ApiCategoriaJogos\\obj\\",
+      "outputPath": "E:\\FATEC\\CURSOS\\GITHUB\\API-CATEGORIA-JOGOS\\Catalogos-De-Jogos\\ApiCategoriaJogos\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Doni\\AppData\\Roaming\\NuGet\\NuGet.Config",

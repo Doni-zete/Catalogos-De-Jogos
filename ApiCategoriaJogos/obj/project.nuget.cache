@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Wb4gpOZXyKWLukpcPB5jyiAxf17oBwzWdFT1jCLEJw2bUvHrmPQ25UGpahmN0NMkSGAtM+Fndh+4wBln6As1cg==",
+  "dgSpecHash": "wfi27B9ZE4TVGEvKZEV6SR90dksvam//05zp3cMYSCoXNhF/CgSx+hUSqwOrR2prYLRxpAVOYZMIzBXIRt6flQ==",
   "success": true,
-  "projectFilePath": "E:\\FATEC\\CURSOS\\GITHUB\\API-CATEGORIA-JOGOS\\ApiCategoriaJogos\\ApiCategoriaJogos.csproj",
+  "projectFilePath": "E:\\FATEC\\CURSOS\\GITHUB\\API-CATEGORIA-JOGOS\\Catalogos-De-Jogos\\ApiCategoriaJogos\\ApiCategoriaJogos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Doni\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\Doni\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
