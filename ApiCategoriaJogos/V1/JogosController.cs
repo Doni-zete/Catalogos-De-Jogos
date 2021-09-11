@@ -1,32 +1,43 @@
-using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
 
 namespace ApiCategoriaJogos.V1
 {
-    [Route("[controller]")]
-    public class JogosController : Controller
+    [ApiController]
+    [Route("api/[controller]")]
+    public class JogosController : ControllerBase
     {
-        private readonly ILogger<JogosController> _logger;
 
-        public JogosController(ILogger<JogosController> logger)
+        [HttpGet]
         {
-            _logger = logger;
-        }
+            public async Task<ActionResult<List<object>>> Obter()
+            {
+                return Ok();
 
-        public IActionResult Index()
-        {
-            return View();
-        }
+            }
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View("Error!");
+            [HttpGet("{idJogo:guid}")]
+        
+            public async Task<ActionResult<object>> Obter(Guid idJogo)
+
+
+            [HttpPost]
+            public async Task<ActionResult<object>> InserirJogo(object jogo)
+            {
+                return Ok();
+            }
+
+            [HttpPut("{idJogo:guid}")]
+            public async Task<ActionResult>AtualiazarJogo(Guid idJogo, object jogo)
+            {
+                return Ok();
+            }
+        
+            [HttpPut("{idJogo:guid}")]
+        
+            public async Task<ActionResult>AtualiazarJogo(Guid idJogo, object jogo)
+            {
+                return Ok();
+            }
+        
         }
-    }
-}
+            }
