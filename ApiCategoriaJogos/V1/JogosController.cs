@@ -1,6 +1,12 @@
 using Microsoft.AspNetCore.Mvc;
+using ApiCategoriaJogos.InputModel;
+using ApiCategoriaJogos.ViewModel;
+using System;
+using System Collections.Generic;
+using System.Threading.Tasks;
 
-namespace ApiCategoriaJogos.V1
+
+namespace ApiCategoriaJogos.Controlers.V1
 {
     [ApiController]
     [Route("api/[controller]")]
@@ -9,7 +15,7 @@ namespace ApiCategoriaJogos.V1
 
         [HttpGet]
         {
-            public async Task<ActionResult<List<object>>> Obter()
+            public async Task<ActionResult<List<jogoViewModel>>> Obter()
             {
                 return Ok();
 
@@ -17,12 +23,12 @@ namespace ApiCategoriaJogos.V1
 
             [HttpGet("{idJogo:guid}")]
         
-            public async Task<ActionResult<object>> Obter(Guid idJogo)
+            public async Task<ActionResult<jogoViewModel>> Obter(Guid idJogo)
 
 
             [HttpPost]
         
-            public async Task<ActionResult<object>> InserirJogo( object jogo)
+            public async Task<ActionResult<jogoViewModel>> InserirJogo( object jogo)
             {
                 return Ok();
 
