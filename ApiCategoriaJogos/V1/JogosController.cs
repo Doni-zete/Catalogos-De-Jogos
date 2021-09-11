@@ -21,23 +21,33 @@ namespace ApiCategoriaJogos.V1
 
 
             [HttpPost]
-            public async Task<ActionResult<object>> InserirJogo(object jogo)
+        
+            public async Task<ActionResult<object>> InserirJogo( object jogo)
+            {
+                return Ok();
+
+            }
+
+            [HttpPut("{idJogo:guid}")]
+            public async Task<ActionResult> AtualiazarJogo(Guid idJogo, object jogo)
+            {
+                return Ok();
+            }
+        
+            [HttpPatch("{idJogo:guid}/precp/{precp:double}")]
+        
+            public async Task<ActionResult> AtualiazarJogo(Guid idJogo, double preco)
             {
                 return Ok();
             }
 
-            [HttpPut("{idJogo:guid}")]
-            public async Task<ActionResult>AtualiazarJogo(Guid idJogo, object jogo)
+             [HttpDelete("idJogo:guid)")]
+        
+            public async Task<ActionResult> ApagarJogo(Guid idJogo)
             {
                 return Ok();
-            }
-        
-            [HttpPut("{idJogo:guid}")]
-        
-            public async Task<ActionResult>AtualiazarJogo(Guid idJogo, object jogo)
-            {
-                return Ok();
+
             }
         
         }
-            }
+            
