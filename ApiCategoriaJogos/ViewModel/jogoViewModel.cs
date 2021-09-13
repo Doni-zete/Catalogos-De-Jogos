@@ -1,12 +1,12 @@
+using System;
+
 namespace ApiCategoriaJogos.ViewModel
 {
-    public class jogoViewModel
+    public class JogoViewModel
     {
-        
-
-        public Guid Id {get;set;}
-        public string Nome {get; set;}
-        public string Produtores{get;set;}
-        public double Preco{get; set;}
+        public Guid Id { get; set; }
+        public string Nome { get; set; }
+        public string Produtora { get; set; }
+        public double Preco { get; set; }
     }
 }

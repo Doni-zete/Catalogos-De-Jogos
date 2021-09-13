@@ -1,3 +1,8 @@
+using Microsoft.AspNetCore.Http;
+using System.Net;
+using System.Threading.Tasks;
+using System.IO;
+
 namespace ApiCategoriaJogos.Middleware
 {
     public class ExceptionMiddleware

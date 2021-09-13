@@ -4,11 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-
-
-
 namespace ApiCategoriaJogos.Repositories
-
 {
     public class JogoRepository : IJogoRepository
     {
@@ -44,7 +40,7 @@ namespace ApiCategoriaJogos.Repositories
         {
             var retorno = new List<Jogo>();
 
-            foreach (var jogo in jogos.Values)
+            foreach(var jogo in jogos.Values)
             {
                 if (jogo.Nome.Equals(nome) && jogo.Produtora.Equals(produtora))
                     retorno.Add(jogo);
