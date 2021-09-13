@@ -10,6 +10,8 @@
 
   <ItemGroup>
     <Folder Include="Controllers\V1\" />
+    <Folder Include="Entities\" />
+    <Folder Include="Exceptions\" />
   </ItemGroup>
 
   <ItemGroup>
